@@ -5,3 +5,5 @@
 1. React Hooks (useState, useEffect, useCallback, useRef)
 
 2. Custom Hook
+
+3. ContextAPI (변경이 매우 적고 작은 데이터 관리할 때 효율 좋은 React 자체 상태관리 툴)

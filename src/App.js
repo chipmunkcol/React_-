@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import './App.css';
-import useCompletes from './useCompletes';
 import One from './MyComponents';
-import Quiz from './QuizComponents';
+import Quiz from './Quiz1/QuizComponents';
+import ContextAPI from './ContextAPI/ContextAPI';
 
 function App() {
 
@@ -13,10 +13,14 @@ function App() {
       
       {/* <One/> */}
 
-      <Quiz />
+      {/* <Quiz /> */}
+
+      {/* <ContextAPI /> */}
 
     </div>
   );
-}
+}  
+
+  
 
 export default App;

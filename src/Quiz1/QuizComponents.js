@@ -1,18 +1,18 @@
 import styled from "styled-components";
-import Box from "./Quiz1/Box"
-import Input from "./Quiz1/Input";
-import GoBoxBtn from "./Quiz1/GoBoxBtn";
+import Box from "./Box"
+import Input from "./Input";
+import GoBoxBtn from "./GoBoxBtn";
 import { useRef, useState } from "react";
+import useCompletes from "../CustomHooks/useCompletes";
 
 const Quiz = () => {
 
-    const [inBox, setInBox] = useState('')
+    const [inBox, setInBox] = useCompletes('')
     const input_ref = useRef(null)
 
     const onclickGoBox = () => {
         // console.log(input_ref.current.value)
-        setInBox(input_ref.current.value)
-        input_ref.current.value = null
+        setInBox(input_ref)
     }
     
     console.log('랜더링됐당')
