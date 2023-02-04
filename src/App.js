@@ -3,6 +3,7 @@ import './App.css';
 import One from './MyComponents';
 import Quiz from './Quiz1/QuizComponents';
 import ContextAPI from './ContextAPI/ContextAPI';
+import Framer from './motion/Framer';
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
       {/* <Quiz /> */}
 
       {/* <ContextAPI /> */}
+      
+      <Framer />
 
     </div>
   );
